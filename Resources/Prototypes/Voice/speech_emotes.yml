@@ -2,65 +2,102 @@
 - type: emote
   id: Scream
   category: Vocal
-  chatMessages: [screams, yells]
+  chatMessages: [кричит!]
   chatTriggers:
-    - scream
-    - screams
-    - screaming
-    - screamed
-    - shriek
-    - shrieks
-    - shrieking
-    - shrieked
-    - screech
-    - screechs
-    - screeching
-    - screeched
-    - yell
-    - yells
-    - yelled
-    - yelling
+    - крик
+    - кричит
+    - кричит.
+    - кричит!
+    - орёт
+    - орёт.
+    - орёт!
 
 - type: emote
   id: Laugh
   category: Vocal
-  chatMessages: [laughs]
+  chatMessages: [смеётся]
   chatTriggers:
-    - laugh
-    - laughs
-    - laughing
-    - laughed
-    - chuckle
-    - chuckles
-    - chuckled
-    - chuckling
-    - giggle
-    - giggles
-    - giggling
-    - giggled
+    - смех
+    - смеётся
+    - смеётся.
+    - смеётся!
+    - смеется
+    - смеется.
+    - смеется!
+    - хохочет
+    - хохочет.
+    - хохочет!
+    - усмехается
+    - усмехается.
+    - усмехается!
+    - усмехнулся
+    - усмехнулся.
+    - усмехнулся!
+    - усмехнулась
+    - усмехнулась.
+    - усмехнулась!
+    - хихикнул
+    - хихикнул.
+    - хихикнул!
+    - хихикнула
+    - хихикнула.
+    - хихикнула!
 
 # hand emotes
 - type: emote
   id: Clap
   category: Hands
-  chatMessages: [claps]
+  chatMessages: [хлопает!]
   chatTriggers:
-    - clap
-    - claps
-    - clapping
-    - clapped
+    - хлопот
+    - хлопнул
+    - хлопнул.
+    - хлопнул!
+    - хлопает
+    - хлопает.
+    - хлопает!
+    - хлопнула
+    - хлопнула.
+    - хлопнула!
 
 - type: emote
   id: Snap
   category: Hands
-  chatMessages: [snaps fingers]
-  chatTriggers:
-    - snap
-    - snaps
-    - snapping
-    - snapped
-    - snap fingers
-    - snaps fingers
-    - snapping fingers
-    - snapped fingers
-
+  chatMessages: [щёлкает пальцами] # snaps <{THEIR($ent)}> fingers?
+  chatTriggers: # ru-l18n: holy FUCK look at all those word endings
+    - щёлкает   #          if only we had some kind of String.includes that would make me not cry
+    - щёлкает.
+    - щёлкает!
+    - щелкает # people forget ё too often
+    - щелкает.
+    - щелкает!
+    - щёлкнул
+    - щёлкнул.
+    - щёлкнул!
+    - щелкнул
+    - щелкнул.
+    - щелкнул!
+    - щёлкнула
+    - щёлкнула.
+    - щёлкнула!
+    - щелкнула
+    - щелкнула.
+    - щелкнула!
+    - щёлкает пальцами
+    - щёлкает пальцами.
+    - щёлкает пальцами!
+    - щелкает пальцами
+    - щелкает пальцами.
+    - щелкает пальцами!
+    - щёлкнул пальцами
+    - щёлкнул пальцами.
+    - щёлкнул пальцами!
+    - щелкнул пальцами
+    - щелкнул пальцами.
+    - щелкнул пальцами!
+    - щёлкнула пальцами
+    - щёлкнула пальцами.
+    - щёлкнула пальцами!
+    - щелкнула пальцами
+    - щелкнула пальцами.
+    - щелкнула пальцами!
