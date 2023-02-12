@@ -287,6 +287,12 @@ namespace Content.Shared.CCVar
 #endif
 
         /*
+         * Damage
+         */
+        public static readonly CVarDef<float> DamageVariance =
+            CVarDef.Create("damage.variance", 0.15f, CVar.SERVER | CVar.REPLICATED);
+
+        /*
          * Discord
          */
 
@@ -1039,6 +1045,12 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> CargoShuttles =
             CVarDef.Create("shuttle.cargo", true, CVar.SERVERONLY);
+
+        /// <summary>
+        /// Whether the Shipyard is enabled.
+        /// </summary>
+        public static readonly CVarDef<bool> Shipyard =
+            CVarDef.Create("shuttle.shipyard", true, CVar.SERVERONLY);
 
         /*
          * Emergency
