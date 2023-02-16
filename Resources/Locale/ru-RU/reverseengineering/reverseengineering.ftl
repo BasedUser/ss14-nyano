@@ -31,3 +31,5 @@ reverse-engineering-machine-bonus-upgrade = Мощность анализа
 reverse-engineering-machine-aversion-upgrade = Бонус предотвращения уничтожения
 
 reverse-engineering-failure = {CAPITALIZE(THE($machine))} разлетается, выпуская повсюду дым!
+
+reverse-engineering-examine = [color=yellow]Этот предмет можно исследовать обратной инженерией. Сложность: {$diff}[/color]

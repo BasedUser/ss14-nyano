@@ -12,3 +12,12 @@ ghost-role-information-hamster-name = Хомяк
 ghost-role-information-hamster-description = Маленький ворчливый пушистик.
 ghost-role-information-hamlet-name = Хомяк Гамлет
 ghost-role-information-hamlet-description = Живёт на капитанском мостике, немного вспыльчив и всегда голоден.
+
+ghost-role-information-cancer-mouse-name = Токсичная мышь
+ghost-role-information-cancer-mouse-description = Комментируйте с некоторой вульгарностью, но не до поры нарушений правил сервера.
+
+ghost-role-information-medibot-name = Медибот
+ghost-role-information-medibot-description = Лечите людей посредством клика, а также любых других существ своим автоинжектором.
+
+ghost-role-information-cleanbot-name = Чистобот
+ghost-role-information-cleanbot-description = Чистите лужи, кликая на них.

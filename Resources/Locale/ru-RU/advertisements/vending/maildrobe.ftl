@@ -1,2 +1,2 @@
-advertisement-maildrobe-1 = Outrun any dog with our psuedo-suede duracarbon mail shorts! Limited supply!
+advertisement-maildrobe-1 = Убежите от любой собаки нашими псевдозамшевыми дюракарбоновыми шортами! Ограниченный запас!
 advertisement-maildrobe-2 = На вас хорошо смотрится синий!

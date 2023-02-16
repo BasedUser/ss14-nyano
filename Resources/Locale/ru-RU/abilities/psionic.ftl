@@ -3,45 +3,42 @@ cage-resist-third-person = {CAPITALIZE(THE($user))} начинает снима�
 
 cage-uncage-verb = Снять клетку
 
-action-name-metapsionic = Metapsionic Pulse
-action-description-metapsionic = Send a mental pulse through the area to see if there are any psychics nearby.
+action-name-metapsionic = Метапсионный импульс
+action-description-metapsionic = Отправить импульс, чтобы узнать, если поблизости есть псионики.
 
-metapsionic-pulse-success = You detect psychic presence nearby.
-metapsionic-pulse-failure = You don't detect any psychic presence nearby.
-metapsionic-pulse-power = You detect that {$power} was used nearby.
+metapsionic-pulse-success = Вы чувствуете, что поблизости есть псионики.
+metapsionic-pulse-failure = Вы не чувствуете псиоников поблизости.
+metapsionic-pulse-power = Вы чувствуете, как кто-то поблизости использовал {$power}.
 
-action-name-dispel = Dispel
-action-description-dispel = Dispel summoned entities such as familiars or forcewalls.
+action-name-dispel = Рассеивание
+action-description-dispel = Уничтожить призванные сущности наподобие фамильяров и силовых полей.
 
-action-name-mass-sleep = Mass Sleep
-action-description-mass-sleep = Put targets in a small area to sleep.
+action-name-mass-sleep = Массовый сон
+action-description-mass-sleep = Заставить целей в маленьком радиусе уснуть.
 
-accept-psionics-window-title = Psionic!
+accept-psionics-window-title = Псионика!
 accept-psionics-window-prompt-text-part = Вы получили псионическую способность!
                                          Возможно, на вас будут охотиться анти-псионические силы,
                                          поэтому вам следует призадуматься о секретности.
                                          Хотите ли вы остаться псиоником?
 
-action-name-psionic-invisibility = Psionic Invisibility
-action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
+action-name-psionic-invisibility = Псионическая невидимость.
+action-description-psionic-invisibility = Стать невидимым для любой сущности, которая потенциально может быть псиоником. Борги, животные и прочие не затронуты.
 
-action-name-psionic-invisibility = Psionic Invisibility
-action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
+action-name-psionic-invisibility-off = Выйти из невидимости
+action-description-psionic-invisibility-off = Вернуться в видимый мир после периода оглушения.
 
-action-name-psionic-invisibility-off = Turn Off Psionic Invisibility
-action-description-psionic-invisibility-off = Return to visibility, and receive a stun.
+action-name-mind-swap = Смена тела
+action-description-mind-swap = Поменяться телом с целью. Оба могут вернуться через 20 секунд.
 
-action-name-mind-swap = Mind Swap
-action-description-mind-swap = Swap minds with the target. Either can change back after 20 seconds.
+action-name-mind-swap-return = Обратная смена тела
+action-description-mind-swap-return = Вернуться в исходное тело.
 
-action-name-mind-swap-return = Reverse Mind Swap
-action-description-mind-swap-return = Return to your original body.
+action-name-telegnosis = Телегностика
+action-description-telegnosis = Выйти в астрал проекцией телегноза, для наблюдения на дальнем расстоянии.
 
-action-name-telegnosis = Telegnosis
-action-description-telegnosis = Create a telegnostic projection to remotely observe things.
-
-action-name-psionic-regeneration = Psionic Regeneration
-action-description-psionic-regeneration = Push your natural metabolism to the limit to power your body's regenerative capability.
+action-name-psionic-regeneration = Регенерация
+action-description-psionic-regeneration = За счёт повышенного до порога метаболизма воспользоваться естественной регенерацией тела.
 
 glimmer-report = Уровень напряжённости ноосферы: {$level}Ψ.
 glimmer-event-report-generic = Обнаружен ноосферный выплеск. Уровень напряжённости упал на {$decrease} до {$level}Ψ.
@@ -51,7 +48,7 @@ glimmer-event-awakened-prefix = оживлённый {$entity}
 noospheric-zap-seize = Вы резко падаете!
 noospheric-zap-seize-potential-regained = Вы резко падаете! Боль в голове тоже, однако, пропадает.
 
-mindswap-trapped = Seems you're trapped in this vessel.
+mindswap-trapped = Похоже, вы застряли в этом теле.
 
 telegnostic-trapped-entity-name = отрезанная проекция телегноза
 telegnostic-trapped-entity-desc = Её многие глаза неописуемо унылы.
@@ -59,11 +56,11 @@ telegnostic-trapped-entity-desc = Её многие глаза неописуе�
 psionic-burns-up = {CAPITALIZE(THE($item))} сгорает дугами странной энергии!
 psionic-burn-resist = На {THE($item)} гуляют странные дуги!
 
-action-name-noospheric-zap = Noospheric Zap
-action-description-noospheric-zap = Shocks the conciousness of the target and leaves them stunned and stuttering.
+action-name-noospheric-zap = Ноосферный шок
+action-description-noospheric-zap = Парализует сознание цели, оглушая её.
 
-action-name-pyrokinesis = Pyrokinesis
-action-description-pyrokinesis = Light a flammable target on fire.
+action-name-pyrokinesis = Пирокинез
+action-description-pyrokinesis = Зажечь воспламеняющуюся цель.
 pyrokinesis-power-used = Огонь обвивает {THE($target)}, зажигая {OBJECT($target)}!
 
 action-name-rf-sensitivity = Toggle RF Sensitivity

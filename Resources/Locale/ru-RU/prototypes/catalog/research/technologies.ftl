@@ -58,3 +58,20 @@ technologies-ripley-technology = Экзокостюм: Рипли
 technologies-ripley-technology-description = Новейшая разработка в области механизации погрузочных работ.
 technologies-robotics-technology = Робототехника
 technologies-robotics-technology-description = Запчасти для роботов.
+
+technologies-security-technology = Оборудование СБ
+technologies-security-technology-description = Замена и пополнение оборудования службы безопасности.
+
+technologies-ballistic-technology = Баллистические снаряды
+technologies-ballistic-technology-description = Другими словами, пули.
+
+technologies-direct-energy-technology = Технологии сфокусированного излучения
+technologies-direct-energy-technology-description = Используем передовые лазерные технологии для мощного оружия.
+
+technologies-non-lethal-technology = Нелетальные технологии
+technologies-non-lethal-technology-description = Менее смертоносные технологии для службы безопасности.
+
+technologies-space-time-technology = Пространственно-временные технологии
+technologies-space-time-technology-description = Продвижение возможностей вселенной.
+
+

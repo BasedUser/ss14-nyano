@@ -40,6 +40,23 @@ job-name-ertmedic = медик ОБР
 job-name-ertjanitor = уборщик ОБР
 job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
+
+
+#Nyano
+job-name-mystagogue = мистагог
+job-name-mantis = мантис
+job-name-epistemologist = послушник
+job-name-mail-carrier = почтальон
+job-name-cataloguer = каталогизатор
+job-name-cyborg = киборг
+job-name-medical-cyborg = медицинский киборг
+job-name-salvage-technician = утилизатор
+job-name-gladiator = гладиатор
+job-name-fugitive = беглец
+job-name-valet = камердинер
+job-name-paramedic = парамедик
+job-name-guard = охранник
+
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = атмосферный техник
 JobBartender = бармен
@@ -83,3 +100,14 @@ JobTechnicalAssistant = атмосферный техник
 JobWarden = смотритель
 JobBoxer = боксёр
 JobZookeeper = зоотехник
+
+# Nyano role timers
+JobCataloguer = каталогизатор
+JobCyborg = киборг
+JobEpistemologist = послушник
+JobForensicMantis = мантис
+JobMailCarrier = почтальон
+JobMystagogue = мистагог
+JobPrisoner = заключённый
+JobSalvageTechnician = утилизатор
+JobValet = камердинер
