@@ -6,6 +6,7 @@ research-console-menu-unlockable-technologies-label = Доступные тех�
 research-console-menu-future-technologies-label = Будущие технологии
 research-console-menu-research-points-text = Очки исследований: { $points }
 research-console-menu-points-per-second-text = Очков в секунду: { $pointsPerSecond }
+research-console-menu-points-limit-text = Пассивный лимит очков: { $pointsLimit }
 research-console-menu-server-selection-button = Список серверов
 research-console-menu-server-sync-button = Синхронизировать
 research-console-menu-server-unlock-button = Изучить
