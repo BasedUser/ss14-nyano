@@ -133,6 +133,27 @@ public static class SkinColor
         // tinted hues just ensures saturation is always .1, or 10% saturation at all times
         return Color.ToHsv(color).Y != .1f;
     }
+
+    public static bool VerifySkinColor(HumanoidSkinColor type, Color color)
+    {
+        return type switch
+        {
+            HumanoidSkinColor.HumanToned => VerifyHumanSkinTone(color),
+            HumanoidSkinColor.TintedHues => VerifyTintedHues(color),
+            HumanoidSkinColor.Hues => true,
+            _ => false,
+        };
+    }
+
+    public static Color ValidSkinTone(HumanoidSkinColor type, Color color)
+    {
+        return type switch
+        {
+            HumanoidSkinColor.HumanToned => ValidHumanSkinTone,
+            HumanoidSkinColor.TintedHues => ValidTintedHuesSkinTone(color),
+            _ => color
+        };
+    }
 }
 
 public enum HumanoidSkinColor : byte
@@ -140,4 +161,5 @@ public enum HumanoidSkinColor : byte
     HumanToned,
     Hues,
     TintedHues, //This gives a color tint to a humanoid's skin (10% saturation with full hue range).
+    None, // No custom colors
 }

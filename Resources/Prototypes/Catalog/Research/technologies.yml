@@ -425,6 +425,7 @@
   - MicroLaserStockPart
   - MicroManipulatorStockPart
   - ScanningModuleStockPart
+  - TelecomServerCircuitboard
 
 - type: technology
   name: technologies-electrical-engineering
@@ -674,9 +675,11 @@
   icon:
     sprite: Nyanotrasen/Objects/Devices/QSI.rsi
     state: icon
-  requiredPoints: 10000
+  requiredPoints: 15000
   requiredTechnologies:
     - SuperPartsTechnology
     - AnomalyTechnology
   unlockedRecipes:
     - QSI
+    - CoreSilver
+    - HandTeleporter

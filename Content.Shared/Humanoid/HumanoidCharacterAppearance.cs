@@ -84,17 +84,16 @@ namespace Content.Shared.Humanoid
             return new(HairStyleId, HairColor, FacialHairStyleId, FacialHairColor, EyeColor, SkinColor, newMarkings);
         }
 
-        public static HumanoidCharacterAppearance Default()
+        public HumanoidCharacterAppearance() : this(
+            HairStyles.DefaultHairStyle,
+            Color.Black,
+            HairStyles.DefaultFacialHairStyle,
+            Color.Black,
+            Color.Black,
+            Humanoid.SkinColor.ValidHumanSkinTone,
+            new ()
+        )
         {
-            return new(
-                HairStyles.DefaultHairStyle,
-                Color.Black,
-                HairStyles.DefaultFacialHairStyle,
-                Color.Black,
-                Color.Black,
-                Humanoid.SkinColor.ValidHumanSkinTone,
-                new ()
-            );
         }
 
         public static HumanoidCharacterAppearance DefaultWithSpecies(string species)
@@ -105,6 +104,7 @@ namespace Content.Shared.Humanoid
                 HumanoidSkinColor.HumanToned => Humanoid.SkinColor.HumanSkinTone(speciesPrototype.DefaultHumanSkinTone),
                 HumanoidSkinColor.Hues => speciesPrototype.DefaultSkinTone,
                 HumanoidSkinColor.TintedHues => Humanoid.SkinColor.TintedHues(speciesPrototype.DefaultSkinTone),
+                HumanoidSkinColor.None => Color.White,
                 _ => Humanoid.SkinColor.ValidHumanSkinTone
             };
 
@@ -162,6 +162,9 @@ namespace Content.Shared.Humanoid
                     var tone = random.Next(0, 100);
                     newSkinColor = Humanoid.SkinColor.HumanSkinTone(tone);
                     break;
+                case HumanoidSkinColor.None:
+                    newSkinColor = Color.White;
+                    break;
                 case HumanoidSkinColor.Hues:
                 case HumanoidSkinColor.TintedHues:
                     var rbyte = random.Next(0, 255);
@@ -217,25 +220,13 @@ namespace Content.Shared.Humanoid
             {
                 markingSet = new MarkingSet(appearance.Markings, speciesProto.MarkingPoints, markingManager, proto);
                 markingSet.EnsureValid(markingManager);
-                markingSet.FilterSpecies(species, markingManager);
 
-                switch (speciesProto.SkinColoration)
+                if (!Humanoid.SkinColor.VerifySkinColor(speciesProto.SkinColoration, skinColor))
                 {
-                    case HumanoidSkinColor.HumanToned:
-                        if (!Humanoid.SkinColor.VerifyHumanSkinTone(skinColor))
-                        {
-                            skinColor = Humanoid.SkinColor.ValidHumanSkinTone;
-                        }
-
-                        break;
-                    case HumanoidSkinColor.TintedHues:
-                        if (!Humanoid.SkinColor.VerifyTintedHues(skinColor))
-                        {
-                            skinColor = Humanoid.SkinColor.ValidTintedHuesSkinTone(skinColor);
-                        }
-
-                        break;
+                    skinColor = Humanoid.SkinColor.ValidSkinTone(speciesProto.SkinColoration, skinColor);
                 }
+
+                markingSet.EnsureSpecies(species, skinColor, markingManager);
             }
 
             return new HumanoidCharacterAppearance(
