@@ -1,5 +1,5 @@
 #!/bin/env bash
-#set -xe
+#set -x
 
 locale_path=Resources/Locale
 
@@ -44,7 +44,7 @@ do
             || [[ "$eng_file_line" == "#"* ]] \
             || [[ "$eng_file_line" == "*"* ]] \
             || [[ "$eng_file_line" == "["* ]] \
-            || [[ ! "$eng_file_line" == *"="* ]]; then
+            || [[ ! "$eng_file_line" == *" ="* ]]; then
             continue
         fi
 
