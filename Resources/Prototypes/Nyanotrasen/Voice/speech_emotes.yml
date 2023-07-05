@@ -61,3 +61,75 @@
     - мурчит
     - мурчит.
     - мурчит!
+
+- type: emote
+  id: Squeak
+  category: Vocal
+  chatMessages: [пищит.]
+  chatTriggers:
+   - пищит
+   - пищит.
+   - пищит!
+   - пискнул
+   - пискнул.
+   - пискнул!
+   - пискнула
+   - пискнула.
+   - пискнула!
+   - пискнуло
+   - пискнуло.
+   - пискнуло!
+   - пик
+   - писк
+   - пикнул
+   - пикнул.
+   - пикнул!
+   - пикнула
+   - пикнула.
+   - пикнула!
+   - пикнуло
+   - пикнуло.
+   - пикнуло!
+   - squeak
+   - squeak.
+   - squeak!
+   - squeaks
+   - squeaks.
+   - squeaks!
+   - squeaking
+   - squeaking.
+   - squeaking!
+   - squeaked
+   - squeaked.
+   - squeaked!
+   
+- type: emote
+  id: Chitter
+  category: Vocal
+  chatMessages: [чирикает.]
+  chatTriggers:
+   - чирик
+   - чирикает
+   - чирикает.
+   - чирикает!
+   - чирикнул
+   - чирикнул.
+   - чирикнул!
+   - чирикнула
+   - чирикнула.
+   - чирикнула!
+   - чирикнуло
+   - чирикнуло.
+   - чирикнуло!
+   - chitter
+   - chitter.
+   - chitter!
+   - chitters
+   - chitters.
+   - chitters!
+   - chittering
+   - chittering.
+   - chittering!
+   - chittered
+   - chittered.
+   - chittered!
