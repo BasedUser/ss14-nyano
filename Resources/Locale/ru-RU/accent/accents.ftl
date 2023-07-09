@@ -58,19 +58,19 @@ accent-words-pig-2 = Хрю?
 accent-words-pig-3 = Хрю!
 accent-words-pig-4 = Хрю Хрю!
 # Nyanotrasen Mothroach
-accent-words-mothroach-1 = Squeak!
-accent-words-mothroach-2 = Chirp!
-accent-words-mothroach-3 = Peep!
-accent-words-mothroach-4 = Eeee!
-accent-words-mothroach-5 = Eep!
+accent-words-mothroach-1 = Скуик!
+accent-words-mothroach-2 = Чирк!
+accent-words-mothroach-3 = Пиип!
+accent-words-mothroach-4 = Ииии!
+accent-words-mothroach-5 = Пип!
 # Kangaroo
-accent-words-kangaroo-1 = Grr!
-accent-words-kangaroo-2 = Hisss!
-accent-words-kangaroo-3 = Shreak!
-accent-words-kangaroo-4 = Chuu!
+accent-words-kangaroo-1 = Грр!
+accent-words-kangaroo-2 = Хиссс!
+accent-words-kangaroo-3 = Рауу!
+accent-words-kangaroo-4 = Чууу!
 # Slimes
-accent-words-slimes-1 = Blyump.
-accent-words-slimes-2 = Blimpuf?
-accent-words-slimes-3 = Blump!
-accent-words-slimes-4 = Bluuump...
-accent-words-slimes-5 = Blabl blump!
+accent-words-slimes-1 = Плюп.
+accent-words-slimes-2 = Плимпуф?
+accent-words-slimes-3 = Плюф!
+accent-words-slimes-4 = Блюююмп...
+accent-words-slimes-5 = Блабл блюмп!
