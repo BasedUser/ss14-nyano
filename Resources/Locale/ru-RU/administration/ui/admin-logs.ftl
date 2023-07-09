@@ -1,4 +1,4 @@
-admin-logs-title = Панель админ логов
+﻿admin-logs-title = Admin Logs Panel
 admin-logs-count = Showing { $showing }/{ $total }
 admin-logs-pop-out = Pop Out
 # Round
@@ -11,7 +11,8 @@ admin-logs-select-all = Все
 admin-logs-select-none = Никакие
 # Players
 admin-logs-search-players-placeholder = Поиск игрока... (ИЛИ)
-admin-logs-select-none = Никакие
+admin-logs-select-none = None
+admin-logs-include-non-player = Include Non-players
 # Logs
 admin-logs-search-logs-placeholder = Поиск по логам...
 admin-logs-refresh = Обновить
