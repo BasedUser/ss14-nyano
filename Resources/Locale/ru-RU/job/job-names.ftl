@@ -1,4 +1,4 @@
-job-name-warden = смотритель
+﻿job-name-warden = warden
 job-name-security = офицер СБ
 job-name-cadet = кадет СБ
 job-name-hos = глава службы безопасности
@@ -40,23 +40,22 @@ job-name-ertmedic = медик ОБР
 job-name-ertjanitor = уборщик ОБР
 job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
-
-
 #Nyano
 job-name-mystagogue = мистагог
 job-name-mantis = мантис
 job-name-epistemologist = послушник
 job-name-mail-carrier = почтальон
 job-name-cataloguer = каталогизатор
-job-name-cyborg = киборг
-job-name-medical-cyborg = медицинский киборг
+job-name-robot = robot
+job-name-medical-robot = medical robot
 job-name-salvage-technician = утилизатор
 job-name-gladiator = гладиатор
 job-name-fugitive = беглец
+job-name-prisoner = prisoner
 job-name-valet = камердинер
 job-name-paramedic = парамедик
 job-name-guard = охранник
-
+job-name-martialartist = martial artist
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = атмосферный техник
 JobBartender = бармен
@@ -94,16 +93,14 @@ JobSalvageSpecialist = утилизатор
 JobScientist = учёный
 JobSecurityCadet = кадет СБ
 JobSecurityOfficer = офицер СБ
-JobServiceWorker = сервисный работник
 JobStationEngineer = инженер
 JobTechnicalAssistant = атмосферный техник
 JobWarden = смотритель
 JobBoxer = боксёр
 JobZookeeper = зоотехник
-
 # Nyano role timers
 JobCataloguer = каталогизатор
-JobCyborg = киборг
+JobRobot = robot
 JobEpistemologist = послушник
 JobForensicMantis = мантис
 JobMailCarrier = почтальон
