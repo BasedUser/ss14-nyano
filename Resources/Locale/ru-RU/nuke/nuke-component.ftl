@@ -29,11 +29,11 @@ nuke-user-interface-second-status-cooldown-time = ОЖИДАНИЕ: { $time }
 
 ## Nuke labels
 
-nuke-label-nanotrasen = NT-{ $serial }
+nuke-label-nanotrasen = НТ-{ $serial }
 # do you even need this one? It's more funnier to say that
 # the Syndicate stole a NT nuke
-nuke-label-syndicate = SYN-{ $serial }
+nuke-label-syndicate = СИН-{ $serial }
 # Codes
 nuke-codes-message = [color=red]СОВЕРШЕННО СЕКРЕТНО![/color] Код активации ядерной боеголовки: { $name } - { $code }
-nuke-codes-list = { $name } code: { $code }
+nuke-codes-list = { $name } код: { $code }
 nuke-codes-fax-paper-name = коды ядерной аутентификации

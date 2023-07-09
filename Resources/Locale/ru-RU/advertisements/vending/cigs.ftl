@@ -1,5 +1,5 @@
-﻿advertisement-cigs-1 = Space cigs taste good like a cigarette should.
-advertisement-cigs-2 = I'd rather toolbox than switch.
+﻿advertisement-cigs-1 = Космические сигареты приятны на вкус, как и положено сигарете.
+advertisement-cigs-2 = Я бы предпочел набор инструментов, а не переключатель.
 advertisement-cigs-3 = Затянись!
 advertisement-cigs-4 = Не верьте исследованиям — курите!
 advertisement-cigs-5 = Наверняка, это не вредно для вас!

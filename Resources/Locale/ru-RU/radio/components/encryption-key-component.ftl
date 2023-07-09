@@ -1,9 +1,9 @@
-encryption-key-successfully-installed = You put the encryption key inside.
-encryption-key-slots-already-full = There is no place for another encryption key.
-encryption-keys-all-extracted = You pop out the encryption keys!
-encryption-keys-no-keys = This device has no encryption keys!
-encryption-keys-are-locked = Encryption key slots are locked!
-encryption-keys-panel-locked = Open maintenance panel first!
-examine-encryption-channels-prefix = Available frequencies:
-examine-encryption-channel = [color={ $color }]{ $key } for { $id } ({ $freq })[/color]
-examine-encryption-default-channel = The default channel is [color={ $color }]{ $channel }[/color].
+encryption-key-successfully-installed = Вы помещаете ключ шифрования внутрь.
+encryption-key-slots-already-full = Нет места для другого ключа шифрования.
+encryption-keys-all-extracted = Вы извлекаете ключи шифрования!
+encryption-keys-no-keys = В этом устройстве нет ключей шифрования!
+encryption-keys-are-locked = Слоты ключей шифрования заблокированы!
+encryption-keys-panel-locked = Сначала откройте панель обслуживания!
+examine-encryption-channels-prefix = Доступные частоты:
+examine-encryption-channel = [color={ $color }]{ $key } для { $id } ({ $freq })[/color]
+examine-encryption-default-channel = Канал по умолчанию [color={ $color }]{ $channel }[/color].

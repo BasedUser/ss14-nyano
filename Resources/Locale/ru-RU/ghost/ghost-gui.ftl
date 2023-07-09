@@ -21,5 +21,5 @@ ghost-roles-window-rules-footer = Кнопка станет доступна ч�
 ghost-roles-window-redirect-label = Также вы можете подключиться к другому серверу.
 ghost-roles-window-redirect-label-empty = Вы можете подключиться к другому серверу.
 ghost-roles-window-redirect = Присоединиться
-ghost-return-to-body-title = Return to Body
-ghost-return-to-body-text = You are being revived! Return to your body?
+ghost-return-to-body-title = Вернуться в тело
+ghost-return-to-body-text = Вас возрождают! Вернуться в свое тело?

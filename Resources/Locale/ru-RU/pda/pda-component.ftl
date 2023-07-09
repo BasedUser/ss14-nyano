@@ -12,9 +12,9 @@ pda-bound-user-interface-uplink-tab-title = Аплинк
 pda-bound-user-interface-uplink-tab-description = Получите доступ к аплинку
 comp-pda-ui-menu-title = КПК
 comp-pda-ui-station = Станция: [color=white]{ $Station }[/color]
-comp-pda-ui-station-alert-level = Alert Level: [color={ $color }]{ $level }[/color]
-comp-pda-ui-station-alert-level-instructions = Instructions: [color=white]{ $instructions }[/color]
-comp-pda-ui-station-time = Shift duration: [color=white]{ $time }[/color]
+comp-pda-ui-station-alert-level = Уровень тревоги: [color={ $color }]{ $level }[/color]
+comp-pda-ui-station-alert-level-instructions = Инструкции: [color=white]{ $instructions }[/color]
+comp-pda-ui-station-time = Продолжительность смены: [color=white]{ $time }[/color]
 comp-pda-ui-eject-id-button = Извлечь ID
 comp-pda-ui-eject-pen-button = Извлечь ручку
 comp-pda-ui-ringtone-button = Рингтон

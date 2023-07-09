@@ -21,4 +21,4 @@ tabletop-checkers-board-name = Шашки
 
 ## Shogi
 
-tabletop-shogi-board-name = Shogi
+tabletop-shogi-board-name = Сёги

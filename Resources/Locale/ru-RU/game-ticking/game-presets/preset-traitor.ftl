@@ -6,7 +6,7 @@ traitor-round-end-result =
         [one] Был один предатель.
        *[other] Было { $traitorCount } предателей.
     }
-traitor-round-end-codewords = The codewords were: [color=White]{ $codewords }[/color]
+traitor-round-end-codewords = Кодовыми словами были: [color=White]{ $codewords }[/color]
 # Shown at the end of a round of Traitor
 traitor-user-was-a-traitor = [color=gray]{ $user }[/color] был(а) предателем.
 traitor-user-was-a-traitor-named = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color]) был(а) предателем.
@@ -46,10 +46,10 @@ traitor-role-codewords =
     Кодовые слова можно использовать в обычном разговоре, чтобы незаметно идентифицировать себя для других агентов Синдиката.
     Прислушивайтесь к ним и храните их в тайне.
 traitor-role-uplink-code =
-    Set your ringtone to the notes { $code } to lock or unlock your uplink.
-    Remember to lock it after, or the stations crew will easily open it too!
+    Установите мелодию звонка на { $code }, чтобы заблокировать или разблокировать ваш аплинк.
+    Не забудьте заблокировать его после этого, иначе персонал станции тоже легко его откроет!
 # don't need all the flavour text for character menu
 traitor-role-codewords-short =
-    The codewords are:
+    Кодовые слова:
     { $codewords }.
-traitor-role-uplink-code-short = Your uplink code is { $code }.
+traitor-role-uplink-code-short = Ваш код аплинка { $code }.

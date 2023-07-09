@@ -1,2 +1,2 @@
 stamina-resist = Устоял
-stamina-tired-heavy = You're too tired for a heavy attack!
+stamina-tired-heavy = Вы слишком устали для тяжелой атаки!

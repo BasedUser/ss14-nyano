@@ -6,4 +6,4 @@ disease-beat-chest-compulsion = { CAPITALIZE($person) } бьёт { $person } в 
 disease-vomit = { CAPITALIZE($person) } тошнит.
 disease-think = Вы чувствуете, как переплетаются ваши мысли.
 disease-polymorph = Вы чувствуете, как ваше тело перекручивается и меняет форму!
-disease-sick-stomach = You feel like throwing up.
+disease-sick-stomach = Вы чувствуете, что вас тошнит.

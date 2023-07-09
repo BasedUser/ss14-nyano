@@ -1,12 +1,12 @@
 # named frequencies
 device-frequency-prototype-name-atmos = Атмосферные приборы
 device-frequency-prototype-name-suit-sensors = Сенсоры костюмов
-device-frequency-prototype-name-crew-monitor = Crew Monitor
+device-frequency-prototype-name-crew-monitor = Монитор экипажа
 device-frequency-prototype-name-lights = Умное освещение
 device-frequency-prototype-name-mailing-units = Почтовый блок
 device-frequency-prototype-name-pdas = КПК
 device-frequency-prototype-name-fax = Факс
-device-frequency-prototype-name-basic-device = Basic Devices
+device-frequency-prototype-name-basic-device = Базовые устройства
 
 ## camera frequencies
 
@@ -20,7 +20,7 @@ device-frequency-prototype-name-surveillance-camera-service = Камеры (Се
 device-frequency-prototype-name-surveillance-camera-medical = Камеры (Мед)
 device-frequency-prototype-name-surveillance-camera-general = Камеры (Общие)
 device-frequency-prototype-name-surveillance-camera-entertainment = Камеры (Развлечения)
-device-frequency-prototype-name-surveillance-camera-silicon = Built-In Silicon Cameras
+device-frequency-prototype-name-surveillance-camera-silicon = Камеры (Борги)
 # prefixes for randomly generated device addresses
 device-address-prefix-vent = Вент-
 device-address-prefix-scrubber = Скр-

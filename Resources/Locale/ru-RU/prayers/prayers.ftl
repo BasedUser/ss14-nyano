@@ -1,4 +1,4 @@
-﻿prayer-verbs-subtle-message = Subtle Message
+﻿prayer-verbs-subtle-message = Скрытое посление
 prayer-verbs-pray = Помолиться
 prayer-verbs-call = Позвонить
 prayer-chat-notify-pray = МОЛИТВА

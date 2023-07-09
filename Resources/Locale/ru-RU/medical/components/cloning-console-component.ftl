@@ -26,5 +26,5 @@ cloning-console-component-msg-incomplete = Не готово: Клонирова
 cloning-console-component-msg-no-cloner = Не готово: Клонер не обнаружен
 cloning-console-component-msg-no-mind = Не готово: Душа неактивна
 cloning-console-chat-error = ОШИБКА: НЕХВАТКА БИОМАССЫ. КЛОНИРОВАНИЕ ЭТОГО ТЕЛА ТРЕБУЕТ { $units } ЕДИНИЦ БИОМАССЫ.
-cloning-console-chat-no-genetics = ERROR: GENETIC ANALYSIS FAILED. BODY USES DIFFERENT SCHEMA OR NULL GENETICS.
+cloning-console-chat-no-genetics = ОШИБКА: ГЕНЕТИЧЕСКИЙ АНАЛИЗ НЕ ПРОШЕЛ. ТЕЛО ИСПОЛЬЗУЕТ ДРУГУЮ СХЕМУ ИЛИ НУЛЕВУЮ ГЕНЕТИКУ.
 cloning-console-cellular-warning = ВНИМАНИЕ: ОЦЕНКА ДОСТОВЕРНОСТИ ЦЕЛОСТНОСТИ ГЕНОВ СОСТАВЛЯЕТ { $percent }%. КЛОНИРОВАНИЕ МОЖЕТ ПРИВЕСТИ К НЕОЖИДАННЫМ РЕЗУЛЬТАТАМ.

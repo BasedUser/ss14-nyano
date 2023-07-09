@@ -10,8 +10,8 @@ shipwrecked-shuttle-announcement = Объявление транспортног
 
 shipwrecked-list-start = Состояние потерпевших крушение:
 shipwrecked-list-escaped-name = - [color=green]{ $name }[/color] сбежали!
-shipwrecked-list-survived-name = - [color=white]{ $name }[/color] was left behind...
-shipwrecked-list-perished-name = - [color=brown]{ $name }[/color] perished on the trip. Rest in peace.
+shipwrecked-list-survived-name = - [color=white]{ $name }[/color] остался(-ись) позади...
+shipwrecked-list-perished-name = - [color=brown]{ $name }[/color] погиб(-ла) в путешествии. Покойся с миром.
 shipwrecked-list-start-objectives = Цели:
 shipwrecked-list-objective-thrusters-fail = - [color=red]Ни один[/color] из [color=red]{ $totalThrusterCount }[/color] двигателей был отремонтирован.
 shipwrecked-list-objective-generator-fail = - Генератор [color=red]не был починен[/color].

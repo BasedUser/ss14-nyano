@@ -25,5 +25,5 @@ reverse-engineering-major = Малый прорыв
 reverse-engineering-success = Прорыв
 reverse-engineering-machine-bonus-upgrade = Мощность анализа
 reverse-engineering-machine-aversion-upgrade = Бонус предотвращения уничтожения
-reverse-engineering-failure = { CAPITALIZE(THE($machine)) } blows smoke and debris everywhere!
+reverse-engineering-failure = { CAPITALIZE(THE($machine)) } пускает дым и мусор повсюду!
 reverse-engineering-examine = [color=yellow]Этот предмет можно исследовать обратной инженерией. Сложность: { $diff }[/color]

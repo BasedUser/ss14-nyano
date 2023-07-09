@@ -1,9 +1,9 @@
 alert-level-announcement = Внимание! Уровень угрозы станции теперь { $name }! { $announcement }
-alert-level-unknown = Unknown.
-alert-level-unknown-instructions = Unknown.
+alert-level-unknown = Неизвестный.
+alert-level-unknown-instructions = Неизвестный.
 alert-level-green = Зелёный
 alert-level-green-announcement = Можно безопасно возвращаться на свои рабочие места.
-alert-level-green-instructions = Do your job.
+alert-level-green-instructions = Делайте вашу работу.
 alert-level-blue = Синий
 alert-level-blue-announcement = На станции присутствует неизвестная угроза. Службе безопасности разрешено проводить выборочные обыски. Членам экипажа рекомендуется выполнять указания, отдаваемые действующей властью.
 alert-level-blue-instructions = Crewmembers are advised to follow commands issued by any relevant authority.

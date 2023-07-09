@@ -11,8 +11,8 @@ comp-light-replacer-refill-from-storage = Вы пополнили { $light-repla
 
 ### Examine 
 
-comp-light-replacer-no-lights = It's empty.
-comp-light-replacer-has-lights = It contains the following:
+comp-light-replacer-no-lights = Пусто.
+comp-light-replacer-has-lights = Содержит следующее:
 comp-light-replacer-light-listing =
     { $amount ->
         [one] [color=yellow]{ $amount }[/color] [color=gray]{ $name }[/color]

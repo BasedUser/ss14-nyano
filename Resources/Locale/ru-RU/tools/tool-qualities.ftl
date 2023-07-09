@@ -14,5 +14,5 @@ tool-quality-slicing-name = Нарезка
 tool-quality-slicing-tool-name = Нож
 tool-quality-sawing-name = Отпиливание
 tool-quality-sawing-tool-name = Пила
-tool-quality-digging-name = Digging
-tool-quality-digging-tool-name = Shovel
+tool-quality-digging-name = Копание
+tool-quality-digging-tool-name = Лопата

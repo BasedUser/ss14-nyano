@@ -1,7 +1,7 @@
 ### UI
 
 # Shown when an RCD is examined in details range
-rcd-component-examine-detail = It's currently on { $mode } mode.
+rcd-component-examine-detail = В настоящее время в режиме { $mode }.
 
 ### Interaction Messages
 

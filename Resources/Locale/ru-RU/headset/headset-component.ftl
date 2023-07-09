@@ -1,6 +1,6 @@
 # Chat window radio wrap (prefix and postfix)
 chat-radio-message-wrap = [color={ $color }]{ $channel } { $name } говорит: "{ $message }"[/color]
-examine-headset-default-channel = Use { $prefix } for the default channel ([color={ $color }]{ $channel }[/color]).
+examine-headset-default-channel = Используйте { $prefix } для канала по умолчанию ([color={ $color }]{ $channel }[/color]).
 chat-radio-common = Общий
 chat-radio-centcom = Центком
 chat-radio-command = Командный
@@ -11,6 +11,6 @@ chat-radio-security = Безопасность
 chat-radio-service = Сервис
 chat-radio-supply = Снабжение
 chat-radio-syndicate = Синдикат
-chat-radio-binary = Binary
+chat-radio-binary = Бинарный
 # not headset but whatever
-chat-radio-handheld = Handheld
+chat-radio-handheld = Переносное

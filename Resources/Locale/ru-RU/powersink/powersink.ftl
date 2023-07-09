@@ -1,2 +1,2 @@
 powersink-examine-drain-amount = Поглотитель энергии вытягивает [color={ $markupDrainColor }]{ $amount } кВт[/color].
-powersink-immiment-explosion-announcement = System scans have detected a rogue power consuming device is becoming unstable.  Staff are advised to locate and disconnect this device immediately before the station is damaged.
+powersink-immiment-explosion-announcement = При сканировании системы обнаружено, что мошенническое энергопотребляющее устройство работает нестабильно. Персоналу рекомендуется найти и отключить это устройство непосредственно перед тем, как станция будет повреждена.
