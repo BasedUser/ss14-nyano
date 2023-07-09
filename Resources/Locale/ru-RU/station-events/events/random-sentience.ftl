@@ -1,5 +1,4 @@
-## Phrases used for where central command got this information.
-
+﻿## Phrases used for where central command got this information.
 random-sentience-event-data-1 = сканирование сенсорами дальнего действия
 random-sentience-event-data-2 = наши сложные статистические модели вероятности
 random-sentience-event-data-3 = наше всемогущество
@@ -36,3 +35,4 @@ station-event-random-sentience-flavor-mechanical = механизмы
 station-event-random-sentience-flavor-organic = органики
 station-event-random-sentience-flavor-corgi = корги
 station-event-random-sentience-flavor-primate = приматы
+station-event-random-sentience-flavor-slime = slime
