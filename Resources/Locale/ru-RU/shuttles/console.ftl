@@ -2,6 +2,7 @@ shuttle-pilot-start = Пилотирование начато
 shuttle-pilot-end = Пилотирование прекращено
 shuttle-console-in-ftl = Невозможно войти в БСС когда уже в БСС!
 shuttle-console-proximity = Слишком близко к соседним объектам
+shuttle-console-prevent = You are unable to pilot this ship.
 # Display
 shuttle-console-display-label = Дисплей
 shuttle-console-ftl-state = Состояние БСС
@@ -11,7 +12,6 @@ shuttle-console-ftl-travelling = В пути
 shuttle-console-ftl-arriving = Прибытие
 shuttle-console-ftl-cooldown = Охлаждение
 shuttle-console-ftl-timer = Время БСС
-# Display
 shuttle-console-max-radar = Макс. дальн. радара:
 shuttle-console-radar = Дальн. радара:
 shuttle-console-position = Местопол:
