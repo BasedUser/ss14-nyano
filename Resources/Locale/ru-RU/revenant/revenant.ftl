@@ -10,6 +10,7 @@ revenant-soul-yield-average = { CAPITALIZE($target) } имеет среднюю 
 revenant-soul-yield-low = { CAPITALIZE($target) } имеет душу ниже среднего.
 revenant-soul-begin-harvest = { CAPITALIZE($target) } внезапно приподнимается в воздух, а кожа становится пепельно серой.
 revenant-soul-finish-harvest = { CAPITALIZE($target) } падает на землю!
+revenant-psionic-power = a spirit power
 #UI
 revenant-user-interface-title = Магазин способностей
 revenant-user-interface-essence-amount = [color=plum]{ $amount }[/color] украденной эссенции
