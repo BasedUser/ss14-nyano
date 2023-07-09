@@ -1,4 +1,4 @@
-default-program-name = Программа
+﻿default-program-name = Program
 notekeeper-program-name = Заметки
 net-probe-program-name = NetProbe
 net-probe-scan = Просканирован { $device }!
