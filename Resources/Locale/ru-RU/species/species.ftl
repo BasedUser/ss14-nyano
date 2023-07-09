@@ -1,4 +1,4 @@
-## Species Names
+﻿## Species Names
 
 species-name-human = Немутированный человек
 species-name-dwarf = Дварф
