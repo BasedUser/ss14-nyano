@@ -29,6 +29,7 @@ analysis-destroy-window-text = Разрушить артефакт, превра
 analysis-destroy-window-yes = Да
 analysis-destroy-window-no = Нет
 analyzer-artifact-component-upgrade-analysis = длительность анализа
+analyzer-artifact-component-upgrade-sacrifice = research points per glimmer
 analysis-console-print-popup = Консоль печатает отчёт.
 analyzer-artifact-destroy-popup = Артефакт распадается на энергию!
 analysis-report-title = Отчёт об артефакте: УЗЕЛ { $id }
