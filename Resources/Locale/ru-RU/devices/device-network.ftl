@@ -1,13 +1,15 @@
 # named frequencies
 device-frequency-prototype-name-atmos = Атмосферные приборы
 device-frequency-prototype-name-suit-sensors = Сенсоры костюмов
+device-frequency-prototype-name-crew-monitor = Crew Monitor
 device-frequency-prototype-name-lights = Умное освещение
 device-frequency-prototype-name-mailing-units = Почтовый блок
 device-frequency-prototype-name-pdas = КПК
 device-frequency-prototype-name-fax = Факс
-# prefixes for randomly generated device addresses
-device-address-prefix-vent = Вент-
-device-address-prefix-scrubber = Скр-
+device-frequency-prototype-name-basic-device = Basic Devices
+
+## camera frequencies
+
 device-frequency-prototype-name-surveillance-camera-test = Тест подсети
 device-frequency-prototype-name-surveillance-camera-engineering = Камеры (Инж)
 device-frequency-prototype-name-surveillance-camera-security = Камеры (СБ)
@@ -18,10 +20,14 @@ device-frequency-prototype-name-surveillance-camera-service = Камеры (Се
 device-frequency-prototype-name-surveillance-camera-medical = Камеры (Мед)
 device-frequency-prototype-name-surveillance-camera-general = Камеры (Общие)
 device-frequency-prototype-name-surveillance-camera-entertainment = Камеры (Развлечения)
+device-frequency-prototype-name-surveillance-camera-silicon = Built-In Silicon Cameras
+# prefixes for randomly generated device addresses
+device-address-prefix-vent = Вент-
+device-address-prefix-scrubber = Скр-
 device-address-prefix-sensor = Сенс-
-device-address-prefix-fire-alarm = Пож-
 #PDAs and terminals
 device-address-prefix-console = Конс-
+device-address-prefix-fire-alarm = Пож-
 device-address-prefix-air-alarm = Возд-
 device-address-examine-message = Адрес устройства: { $address }.
 #Device net ID names
