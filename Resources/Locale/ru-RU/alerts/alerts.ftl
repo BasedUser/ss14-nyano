@@ -32,6 +32,8 @@ alerts-health-name = Здоровье
 alerts-health-desc = [color=green]Синий и зелёный[/color] хорошо. [color=red]Красный[/color] плохо.
 alerts-internals-name = Переключить баллон
 alerts-internals-desc = Включает или отключает подачу газа из баллона.
+alerts-internals-name = Toggle internals
+alerts-internals-desc = Toggles your gas tank internals on or off.
 alerts-piloting-name = Пилотирование шаттла
 alerts-piloting-desc = Вы пилотируете шаттл. Щелкните по иконке, чтобы прекратить пилотирование.
 alerts-hunger-name = [color=yellow]Голод[/color]
