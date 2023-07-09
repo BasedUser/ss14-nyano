@@ -1,6 +1,8 @@
+anomaly-component-contact-damage = The anomaly sears off your skin!
 anomaly-vessel-component-anomaly-assigned = Аномалия присвоена сосуду.
 anomaly-vessel-component-not-assigned = Этому сосуду не присвоена ни одна аномалия. Попробуйте использовать на нём сканер.
 anomaly-vessel-component-assigned = Этому сосуду уже присвоена аномалия.
+anomaly-vessel-component-upgrade-output = point output
 anomaly-particles-delta = Дельта-частицы
 anomaly-particles-epsilon = Эпсилон-частицы
 anomaly-particles-zeta = Зета-частицы
@@ -24,3 +26,14 @@ anomaly-generator-no-cooldown = Перезарядка: [color=gray]Заверш
 anomaly-generator-yes-fire = Статус: [color=forestgreen]Готов[/color]
 anomaly-generator-no-fire = Статус: [color=crimson]Не готов[/color]
 anomaly-generator-generate = Создать аномалию
+anomaly-generator-charges =
+    { $charges ->
+        [one] { $charges } charge
+       *[other] { $charges } charges
+    }
+anomaly-generator-announcement = An anomaly has been generated!
+anomaly-command-pulse = Pulses a target anomaly
+anomaly-command-supercritical = Makes a target anomaly go supercritical
+# Flavor text on the footer
+anomaly-generator-flavor-left = Anomaly may spawn inside the operator.
+anomaly-generator-flavor-right = v1.1
