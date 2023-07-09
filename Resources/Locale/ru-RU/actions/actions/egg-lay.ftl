@@ -1,4 +1,4 @@
-action-name-lay-egg = Отложить яйцо
+﻿action-name-lay-egg = Lay egg
 action-description-lay-egg = Потратить сытость чтобы отложить яйцо.
 action-popup-lay-egg-user = Вы отложили яйцо.
 action-popup-lay-egg-others = { CAPITALIZE($entity) } откладывает яйцо.
