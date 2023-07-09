@@ -1,4 +1,4 @@
-# UI
+﻿# UI
 ban-list-header-ids = Id
 ban-list-header-reason = Причина
 ban-list-header-time = Длительность бана
