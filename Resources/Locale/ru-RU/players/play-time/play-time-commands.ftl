@@ -1,4 +1,4 @@
-﻿parse-minutes-fail = Unable to parse '{$minutes}' as minutes
+parse-minutes-fail = Не удалось спарсить длительность '{ $minutes }' в минутах
 parse-session-fail = Не найдена сессия для '{ $username }'
 parse-username-fail = Не удалось спарсить guid '{ $username }'
 playtime-netuserid-not-found = Не найден netuserid пользователя '{ $username }'
