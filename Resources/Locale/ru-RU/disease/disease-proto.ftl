@@ -9,7 +9,6 @@ disease-proto-space-flu = космический грипп
 disease-proto-bird-flew = птичья чихотка
 disease-proto-robovirus = робовирус Ван Аусдалла
 disease-proto-amiv = вирус ПРИМАТ
-# Полиморфирующий Респираторный Индуцирующий Мета-Ассоциированный Т-вирус
 disease-proto-amirmir = меметичный амирмир
 disease-proto-bleeders = укус кровопускателя
 disease-proto-plague = чума
