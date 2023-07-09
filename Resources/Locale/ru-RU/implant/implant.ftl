@@ -1,4 +1,4 @@
-## Implanter Attempt Messages
+﻿## Implanter Attempt Messages
 
 implanter-component-implanting-target = { $user } пытается что-то в вас имплантировать!
 implanter-draw-failed-permanent = { $implant } вросся в { $target } и не может быть удалён!
