@@ -1,2 +1,2 @@
 cyno-gas-analyzer = Принюхаться
-cyno-gas-analyzer-desc = Smell for any gasses in the air using your genetically modified nose.
+cyno-gas-analyzer-desc = Почувствуйте запах любых газов в воздухе, используя генетически модифицированный нос.
