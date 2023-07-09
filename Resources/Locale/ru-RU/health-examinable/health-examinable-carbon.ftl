@@ -1,4 +1,5 @@
-health-examinable-carbon-none = Видимые повреждения тела отсутствуют.
+﻿health-examinable-carbon-none = There are no obvious wounds to be seen.
+
 health-examinable-carbon-Blunt-25 = [color=red]{ CAPITALIZE($target) } имеет небольшие ушибы на теле.[/color]
 health-examinable-carbon-Blunt-50 = [color=crimson]{ CAPITALIZE($target) } имеет серьёзные ушибы на теле![/color]
 health-examinable-carbon-Blunt-75 = [color=crimson]{ CAPITALIZE($target) } имеет сильные ушибы по всему телу![/color]
