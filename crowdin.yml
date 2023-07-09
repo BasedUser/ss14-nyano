@@ -1,4 +1,4 @@
 files:
   - source: /Resources/Locale/en-US/**/**.ftl
     translation: /Resources/Locale/%locale%/**/%original_file_name%
-    first_line_contains_header: true
+    first_line_contains_header: false
