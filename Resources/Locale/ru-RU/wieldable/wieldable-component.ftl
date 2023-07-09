@@ -1,4 +1,4 @@
-### Locale for wielding items; i.e. two-handing them
+﻿### Locale for wielding items; i.e. two-handing them
 
 wieldable-verb-text-wield = Взять в руки
 wieldable-verb-text-unwield = Взять в руку
@@ -14,3 +14,4 @@ wieldable-component-not-enough-free-hands =
        *[other] свободных рук
     }.
 wieldable-component-not-in-hands = { CAPITALIZE($item) } не в ваших руках!
+wieldable-component-requires = { CAPITALIZE(THE($item)) } must be wielded!
