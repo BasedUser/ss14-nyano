@@ -1,3 +1,3 @@
 action-name-scream = Крикнуть
-action-description-scream = AAAAAAAAAAAAAAAAAAAAAAAAA
+action-description-scream = ААААААААААААААААААААААААААААА
 scream-action-popup = Кричит!
