@@ -1,8 +1,9 @@
-zombie-title = Зомби
+﻿zombie-title = Zombies
 zombie-description = На станции появился вирус, способный оживлять мертвецов! Совместно с другими членами экипажа сдержите заражение и постарайтесь выжить.
 zombie-not-enough-ready-players = Недостаточно игроков готовы к игре! { $readyPlayersCount } игроков из необходимых { $minimumPlayers } готовы. Нельзя начать Зомби.
 zombie-no-one-ready = Нет готовых игроков! Нельзя начать Зомби.
 zombie-patientzero-role-greeting = Вы — нулевой пациент. Скрывайте свою инфекцию, добывайте припасы, и будьте готовы обратиться после смерти.
+zombie-healing = You feel a stirring in your flesh
 zombie-alone = Вы чувствуете себя совершенно одиноким.
 zombie-round-end-initial-count =
     { $initialCount ->
