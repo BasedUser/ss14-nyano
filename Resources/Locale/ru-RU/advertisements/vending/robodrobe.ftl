@@ -1,2 +1,2 @@
-advertisement-robodrobe-1 = You turn me TRUE, use defines!
+advertisement-robodrobe-1 = Вы превращаете меня в ИСТИНУ, ипользуйте определения!
 advertisement-robodrobe-2 = 110100001011111011010000101101001101000010110101110100001011011011010000101101001101000010110000
