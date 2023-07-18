@@ -8,6 +8,7 @@ flavor-profile-unknown = Вкус неописуем.
 # will go in front so you don't get this like "Tastes like tomatoes, sweet and spicy",
 # instead, you get "Tastes sweet, spicy and like tomatoes".
 
+flavor-base-acidic = acidic
 flavor-base-savory = жгуче
 flavor-base-sweet = сладко
 flavor-base-salty = солено
@@ -38,6 +39,8 @@ flavor-base-creamy = сливочно
 flavor-base-fizzy = шипуче
 flavor-base-shocking = шокирующе
 flavor-base-cheap = дёшево
+flavor-base-piquant = piquant
+flavor-base-sharp = sharp
 # lmao
 flavor-base-terrible = ужасно
 
@@ -79,12 +82,14 @@ flavor-complex-ice-cream = как мороженое
 flavor-complex-dough = как тесто
 flavor-complex-sweet-dough = как сладкое тесто
 flavor-complex-tofu = как тофу
+flavor-complex-miso = like miso
 flavor-complex-muffin = как маффин
 flavor-complex-peas = как горох
 flavor-complex-pineapple = как ананас
 flavor-complex-onion = как лук
 flavor-complex-eggplant = как баклажан
 flavor-complex-carrot = как морковь
+flavor-complex-cabbage = like cabbages
 flavor-complex-potatoes = как картофель
 flavor-complex-mushroom = как грибы
 flavor-complex-tomato = как помидоры
@@ -95,6 +100,16 @@ flavor-complex-bungo = как бунго
 flavor-complex-raisins = как сушеный виноград
 flavor-complex-orange = как апельсины
 flavor-complex-watermelon = как арбуз
+flavor-complex-nuggie = like "chicken"
+flavor-complex-garlic = like garlic
+flavor-complex-grape = like grapes
+flavor-complex-meatballs = like meatballs
+flavor-complex-nettles = like nettles
+flavor-complex-jungle = like jungle
+flavor-complex-vegetables = like vegetables
+
+# use it when there multiple types of veggies
+
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
@@ -115,9 +130,16 @@ flavor-complex-boritos = как гейминг
 flavor-complex-nachos = как начос
 flavor-complex-donk = как дешёвая пицца
 flavor-complex-copypasta = как повторяющаяся шутка
+flavor-complex-bad-joke = like a bad joke
 flavor-complex-memory-leek = как форк-бомба
 flavor-complex-gunpowder = как порох
 flavor-complex-validhunting = как валидхантинг
+flavor-complex-sadness = like sadness
+flavor-complex-hope = like hope
+flavor-complex-chaos = like chaos
+flavor-complex-squirming = like squirming
+flavor-complex-electrons = like electrons
+flavor-complex-parents = like someone's parents
 
 # Drink-specific flavors.
 
@@ -127,6 +149,7 @@ flavor-complex-validhunting = как валидхантинг
 flavor-complex-alcohol = как алкоголь
 flavor-complex-soda = как газировка
 flavor-complex-juice = как сок
+flavor-complex-rocksandstones = like rocks and stones
 
 ## Basic drinks
 
@@ -166,6 +189,8 @@ flavor-complex-atomic-cola = как накопление бутылочных к
 flavor-complex-cuba-libre = как крепкая кола
 flavor-complex-gin-tonic = как крепкая газировка с лимоном и лаймом
 flavor-complex-screwdriver = как крепкий апельсиновый сок
+flavor-complex-themartinez = like violets and lemon vodka
+flavor-complex-antifreeze = warm
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 
@@ -180,3 +205,24 @@ flavor-complex-medicine = как лекарство
 flavor-complex-carpet = как горсть шерсти
 flavor-complex-bee = беспчеловечно
 flavor-complex-sax = как джаз
+flavor-complex-bottledlightning = like lightning in a bottle
+
+## Nyano???
+
+flavor-complex-enthralling = enthralling
+flavor-complex-sublime = sublime
+flavor-complex-holy = heavenly
+flavor-base-seeds = seeds
+flavor-complex-cotton = like cotton
+flavor-complex-vanilla = like vanilla
+flavor-complex-soju = like bold, alcoholic rice
+flavor-complex-orangecreamcicle = like creamy, alcoholic orange juice
+flavor-complex-silverjack = like a rockstars dream
+flavor-complex-brainbomb = like liver damage
+flavor-complex-atomicpunch = like bittersweet radiation
+flavor-complex-circusjuice = extremely funny
+flavor-complex-pinkdrink = overwhelmingly like pink
+flavor-complex-sapopicante = like tomatoes and spices
+flavor-complex-graveyard = like a strong cold brew
+flavor-complex-bubbletea = like creamy sweetness
+flavor-complex-corncob = like a sick joke

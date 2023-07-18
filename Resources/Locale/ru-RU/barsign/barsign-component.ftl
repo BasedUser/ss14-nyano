@@ -120,3 +120,11 @@ barsign-prototype-description-empbarsign = Что-то пошло совсем �
 ## SignOff
 
 barsign-prototype-description-sign-off = Этот знак, похоже, не включен.
+
+# Nyano specific sign
+
+
+## Whiskey Echoes
+
+barsign-prototype-name-whiskeyecho = Whiskey Echoes
+barsign-prototype-description-whiskeyecho = Wew lad! Sit down and have a drink! No matter your affiliation, the slogan here is 'Death to sobriety!'

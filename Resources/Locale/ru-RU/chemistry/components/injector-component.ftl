@@ -22,3 +22,7 @@ injector-component-target-is-empty-message = { $target } пуст!
 
 injector-component-injecting-user = Вы начинаете вводить иглу.
 injector-component-injecting-target = { CAPITALIZE($user) } пытается ввести вам иглу!
+
+## failure
+
+injector-component-failure-hardsuit = You can't get the needle to go through the thick plating!

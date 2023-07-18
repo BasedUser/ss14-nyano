@@ -1,5 +1,7 @@
-parse-minutes-fail = Не удалось спарсить '{ $minutes }' как минуты
+parse-minutes-fail = Не удалось спарсить длительность '{ $minutes }' в минутах
 parse-session-fail = Не найдена сессия для '{ $username }'
+parse-username-fail = Не удалось спарсить guid '{ $username }'
+playtime-netuserid-not-found = Не найден netuserid пользователя '{ $username }'
 
 ## Role Timer Commands
 
@@ -36,17 +38,22 @@ cmd-playtime_getrole-arg-role = <role|'Overall'>
 cmd-playtime_getrole-error-args = Ожидается ровно один или два аргумента
 # - playtime_save
 cmd-playtime_save-desc = Сохранение игрового времени игрока в БД
-cmd-playtime_save-help = Использование: { $command } <user name>
+cmd-playtime_save-help = Использование: { $command } <имя пользователя>
 cmd-playtime_save-succeed = Игровое время { $username } сохранено
-cmd-playtime_save-arg-user = <user name>
+cmd-playtime_save-arg-user = <имя пользователя>
 cmd-playtime_save-error-args = Ожидается ровно один аргумент
 
 ## 'playtime_flush' command'
 
 cmd-playtime_flush-desc = Записывает активные трекеры в хранение отслеживании игрового времени.
 cmd-playtime_flush-help =
-    Использование: { $command } [user name]
+    Использование: { $command } [имя пользователя]
     Это вызывает запись только во внутреннее хранилище, при это не записывая немедленно в БД.
     Если пользователь передан, то только этот пользователь будет обработан.
 cmd-playtime_flush-error-args = Ожидается ноль или один аргумент
-cmd-playtime_flush-arg-user = [user name]
+cmd-playtime_flush-arg-user = [имя пользователя]
+
+## playtime_getoffline
+
+cmd-playtime_getoffline-desc = Получить общее время воспроизведения по имени пользователя офлайн-игрока.
+cmd-playtime_getoffline-failure = Не удалось получить общее время игры для { $username }.

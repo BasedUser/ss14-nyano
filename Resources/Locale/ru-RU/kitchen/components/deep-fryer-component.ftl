@@ -1,21 +1,17 @@
 ## DeepFryer Entity
 
-deep-fryer-blacklist-item-failed = {CAPITALIZE(THE($item))} не покрывается маслом.
-deep-fryer-oil-purity-low = {CAPITALIZE(THE($deepFryer))} булькает, не работая.
-deep-fryer-oil-volume-low = {CAPITALIZE(THE($deepFryer))} зажигается, выпуская дым!
+deep-fryer-blacklist-item-failed = { CAPITALIZE(THE($item)) } не покрывается маслом.
+deep-fryer-oil-purity-low = { CAPITALIZE(THE($deepFryer)) } булькает, не работая.
+deep-fryer-oil-volume-low = { CAPITALIZE(THE($deepFryer)) } зажигается, выпуская дым!
 deep-fryer-oil-no-slag = Нету шлака.
-
 deep-fryer-storage-full = Все корзинки заполнены.
-deep-fryer-storage-no-fit = {CAPITALIZE(THE($item))} не поместится в одну из корзинок.
+deep-fryer-storage-no-fit = { CAPITALIZE(THE($item)) } не поместится в одну из корзинок.
 deep-fryer-interact-using-not-item = Не похоже, что это можно положить во фритюру.
-
 deep-fryer-need-liquid-container-in-hand = Необходимо держать жидкостный контейнер по типу мензурки или ведра в активной руке.
-
 deep-fryer-thrown-missed = Промах!
 deep-fryer-thrown-hit-oil = Шлёп!
 deep-fryer-thrown-hit-oil-low = Дзынь!
-
-deep-fryer-entity-escape = {CAPITALIZE(THE($victim))} выпрыгивает из {THE($deepFryer)}!
+deep-fryer-entity-escape = { CAPITALIZE(THE($victim)) } выпрыгивает из { THE($deepFryer) }!
 
 ## DeepFryer UI
 
@@ -34,11 +30,9 @@ deep-fryer-button-remove-all-items-tooltip = Извлечь все предме�
 
 ## DeepFriedComponent
 
-deep-fried-crispy-item = хрустящее {$entity}
+deep-fried-crispy-item = хрустящее { $entity }
 deep-fried-crispy-item-examine = Оно имеет хрустящую, масляную текстуру.
-
-deep-fried-fried-item = {$entity} в панировке
+deep-fried-fried-item = { $entity } в панировке
 deep-fried-fried-item-examine = Оно покрыто весьма плотным хрустящим слоем.
-
-deep-fried-burned-item = сожжённое {$entity}
+deep-fried-burned-item = сожжённое { $entity }
 deep-fried-burned-item-examine = Оно почернело от сажи.

@@ -1,4 +1,4 @@
-# User interface
+﻿# User interface
 comms-console-menu-title = Консоль связи
 comms-console-menu-announcement-placeholder = Объявление
 comms-console-menu-announcement-button = Сделать объявление

@@ -1,2 +1,9 @@
 docking-component-dock = Пристыковаться
 docking-component-undock = Отстыковаться
+cmd-dock-desc = Попытки состыковать 2 шлюза вместе. Не проверяет, является ли он действующим.
+cmd-dock-help = dock <airlock entityuid1> <airlock entityuid2>
+cmd-dock-args = Недопустимое количество аргументов
+cmd-dock-invalid = Недопустимый EntityUid { $entity }
+cmd-dock-found = Компонент стыковки не найден { $airlock }
+cmd-dock-success = Успешно пристыкован
+cmd-dock-fail = Не удалось пристыковаться

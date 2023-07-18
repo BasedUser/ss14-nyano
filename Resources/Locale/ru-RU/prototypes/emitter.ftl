@@ -1,4 +1,4 @@
-### Emitter entity prototype data.
+﻿### Emitter entity prototype data.
 
 ent-emitter = эмиттер
     .desc = Устройство, стреляющее энергетическими пучками, используемое для питания сдерживающих полей на безопасном расстоянии.

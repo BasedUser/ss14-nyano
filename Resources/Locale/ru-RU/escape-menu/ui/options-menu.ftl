@@ -13,6 +13,7 @@ ui-options-default = По-умолчанию
 
 ui-options-master-volume = Основная громкость:
 ui-options-midi-volume = MIDI (Инструменты) громкость:
+ui-options-ambient-music-volume = Ambient music volume:
 ui-options-ambience-volume = Громкость окружения:
 ui-options-lobby-volume = Громкость лобби и окончания раунда:
 ui-options-ambience-max-sounds = Кол-во одновременных звуков окружения:
@@ -20,14 +21,13 @@ ui-options-lobby-music = Музыка в лобби
 ui-options-restart-sounds = Звуки перезапуска раунда
 ui-options-event-music = Музыка событий
 ui-options-admin-sounds = Музыка админов
-ui-options-station-ambience = Эмбиент станции
-ui-options-space-ambience = Эмбиент космоса
 ui-options-volume-label = Громкость
 ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
 ## Graphics menu
 
 ui-options-show-held-item = Показать удерживаемый элемент рядом с курсором?
+ui-options-show-combat-mode-indicators = Show combat mode indicators with cursor?
 ui-options-vsync = Вертикальная синхронизация
 ui-options-fullscreen = Полный экран
 ui-options-lighting-label = Качество освещения:
@@ -88,6 +88,9 @@ ui-options-function-walk = Идти
 ui-options-function-camera-rotate-left = Повернуть налево
 ui-options-function-camera-rotate-right = Повернуть направо
 ui-options-function-camera-reset = Сбросить камеру
+ui-options-function-zoom-in = Zoom in
+ui-options-function-zoom-out = Zoom out
+ui-options-function-reset-zoom = Reset zoom
 ui-options-function-use = Использовать
 ui-options-function-use-secondary = Use secondary
 ui-options-function-alt-use = Альтернативное использование
@@ -108,8 +111,10 @@ ui-options-function-release-pulled-object = Перестать тянуть об
 ui-options-function-point = Указать на что-либо
 ui-options-function-focus-chat-input-window = Писать в чат
 ui-options-function-focus-local-chat-window = Писать в чат (IC)
+ui-options-function-focus-emote = Focus chat (Emote)
 ui-options-function-focus-whisper-chat-window = Писать в чат (Шёпот)
 ui-options-function-focus-radio-window = Писать в чат (Радио)
+ui-options-function-focus-looc-window = Focus chat (LOOC)
 ui-options-function-focus-ooc-window = Писать в чат (OOC)
 ui-options-function-focus-admin-chat-window = Писать в чат (Админ)
 ui-options-function-focus-dead-chat-window = Писать в чат (Мертвые)
@@ -127,6 +132,11 @@ ui-options-function-open-sandbox-window = Открыть меню песочни
 ui-options-function-open-tile-spawn-window = Открыть меню спавна тайлов
 ui-options-function-open-decal-spawn-window = Открыть меню спавна декалей
 ui-options-function-open-admin-menu = Открыть админ меню
+ui-options-function-open-guidebook = Open guidebook
+ui-options-function-window-close-all = Close all windows
+ui-options-function-window-close-recent = Close recent window
+ui-options-function-show-escape-menu = Toggle game menu
+ui-options-function-escape-context = Close recent window or toggle game menu
 ui-options-function-take-screenshot = Сделать скриншот
 ui-options-function-take-screenshot-no-ui = Сделать скриншот (без интерфейса)
 ui-options-function-editor-place-object = Разместить объект
@@ -134,8 +144,9 @@ ui-options-function-editor-cancel-place = Отменить размещение
 ui-options-function-editor-grid-place = Размещать в сетке
 ui-options-function-editor-line-place = Размещать в линию
 ui-options-function-editor-rotate-object = Повернуть
+ui-options-function-editor-flip-object = Flip
 ui-options-function-editor-copy-object = Копировать
-ui-options-function-open-abilities-menu = Открыть меню действий
+ui-options-function-open-abilities-menu = Open action menu
 ui-options-function-show-debug-console = Открыть консоль
 ui-options-function-show-debug-monitors = Показать дебаг информацию
 ui-options-function-hide-ui = Спрятать интерфейс
@@ -166,8 +177,11 @@ ui-options-function-shuttle-strafe-down = Стрейф вниз
 ui-options-function-shuttle-rotate-left = Поворот налево
 ui-options-function-shuttle-rotate-right = Поворот направо
 ui-options-function-shuttle-brake = Торможение
-ui-options-net-interp-ratio = Сетевое сглаживание
+
+## Network menu
+
 ui-options-net-predict = Предугадывание на стороне клиента
+ui-options-net-interp-ratio = Сетевое сглаживание
 ui-options-net-interp-ratio-tooltip =
     Увеличение этого параметра, как правило, делает игру
     более устойчивой к потере пакетов, однако при этом
@@ -195,5 +209,8 @@ ui-options-net-pvs-leave-tooltip =
     сущности вне поля зрения. Снижение этого параметра может помочь
     уменьшить "захлебывания" при ходьбе, но иногда может 
     привести к неправильным предугадываниям и другим проблемам.
+
+## Toggle window console command
+
 cmd-options-desc = Открывает меню опций, опционально с конкретно выбранной вкладкой.
 cmd-options-help = Использование: options [tab]

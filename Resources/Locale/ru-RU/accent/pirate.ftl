@@ -1,0 +1,17 @@
+accent-pirate-prefix-1 = Arrgh
+accent-pirate-prefix-2 = Gar
+accent-pirate-prefix-3 = Yarr
+accent-pirate-replaced-1 = my
+accent-pirate-replacement-1 = me
+accent-pirate-replaced-2 = you
+accent-pirate-replacement-2 = я
+accent-pirate-replaced-3 = дарова
+accent-pirate-replacement-3 = ахой
+accent-pirate-replaced-4 = да
+accent-pirate-replacement-4 = ейе
+accent-pirate-replaced-5 = я
+accent-pirate-replaced-6 = хай
+accent-pirate-replaced-7 = это
+accent-pirate-replacement-5 = бе
+accent-pirate-replaced-8 = там
+accent-pirate-replacement-6 = брз

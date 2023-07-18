@@ -8,21 +8,19 @@ ui-disposal-unit-button-flush = Смыть
 ui-disposal-unit-button-eject = Извлечь всё
 ui-disposal-unit-button-power = Питание
 
-## FlushVerb
+## Verbs
 
 disposal-flush-verb-get-data-text = Смыть
-
-## SelfInsertVerb
-
 disposal-self-insert-verb-get-data-text = Залезть внутрь
+disposal-eject-verb-get-data-text = Извлечь всё
 
 ## No hands
 
 disposal-unit-no-hands = У вас нет рук!
-disposal-flush-verb-get-data-text = Смыть
+
+## missed
+
 disposal-unit-thrown-missed = Промах!
 # state
 disposal-unit-state-Ready = Готов
 disposal-unit-state-Pressurizing = Нагнетание
-disposal-self-insert-verb-get-data-text = Залезть внутрь
-disposal-eject-verb-get-data-text = Извлечь всё
