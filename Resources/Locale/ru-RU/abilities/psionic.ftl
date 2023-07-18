@@ -63,5 +63,5 @@ action-name-pyrokinesis = Пирокинез
 action-description-pyrokinesis = Зажечь воспламеняющуюся цель.
 pyrokinesis-power-used = Огонь обвивает {THE($target)}, зажигая {OBJECT($target)}!
 
-action-name-rf-sensitivity = Toggle RF Sensitivity
-action-desc-rf-sensitivity = Toggle your ability to interpret radio waves on and off.
+action-name-rf-sensitivity = Переключение радиочувствительности
+action-desc-rf-sensitivity = Переключение вашей способности интерпретировать радиочастоты.
