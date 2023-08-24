@@ -4,6 +4,30 @@
   category: Vocal
   chatMessages: [кричит!]
   chatTriggers:
+    - scream
+    - screams
+    - screams.
+    - screams!
+    - screaming
+    - screamed
+    - shriek
+    - shrieks
+    - shrieks.
+    - shrieks!
+    - shrieking
+    - shrieked
+    - screech
+    - screeches
+    - screeches.
+    - screeches!
+    - screeching
+    - screeched
+    - yell
+    - yells
+    - yells.
+    - yells!
+    - yelled
+    - yelling
     - крик
     - кричит
     - кричит.
@@ -15,8 +39,26 @@
 - type: emote
   id: Laugh
   category: Vocal
-  chatMessages: [смеётся]
+  chatMessages: [смеётся!]
   chatTriggers:
+    - laugh
+    - laughs
+    - laughs.
+    - laughs!
+    - laughing
+    - laughed
+    - chuckle
+    - chuckles
+    - chuckles.
+    - chuckles!
+    - chuckled
+    - chuckling
+    - giggle
+    - giggles
+    - giggles.
+    - giggles!
+    - giggling
+    - giggled
     - смех
     - смеётся
     - смеётся.
@@ -46,7 +88,7 @@
 - type: emote
   id: Sigh
   category: Vocal
-  chatMessages: [sighs]
+  chatMessages: [вздыхает.]
   chatTriggers:
     - sigh
     - sighs
@@ -55,12 +97,81 @@
     - sighs.
     - sighed.
 
+- type: emote
+  id: Whistle
+  category: Vocal
+  chatMessages: [свистит!]
+  chatTriggers:
+    - whistle
+    - whistle.
+    - whistle!
+    - whistles
+    - whistles.
+    - whistles!
+    - whistleblowing
+    - whistleblowing.
+    - whistleblowing!
+    - свистит
+    - свистит.
+    - свистит!
+    - свистнул
+    - свистнул.
+    - свистнул!
+    - свистнула
+    - свистнула.
+    - свистнула!
+
+- type: emote
+  id: Crying
+  category: Vocal
+  chatMessages: [плачет]
+  chatTriggers:
+    - cry
+    - cry.
+    - cry!
+    - crying
+    - crying.
+    - crying!
+    - cries
+    - cries.
+    - cries!
+    - плачет
+    - плачет.
+    - плачет!
+    - рыдает
+    - рыдает.
+    - рыдает!
+
+- type: emote
+  id: Squish
+  category: Vocal
+  chatMessages: [сжимается]
+  chatTriggers:
+    - squish
+    - squish.
+    - squish!
+    - squishing
+    - squishing.
+    - squishing!
+    - squishes
+    - squishes.
+    - squishes!
+    - сжимается
+    - сжимается.
+    - сжимается!
+
 # hand emotes
 - type: emote
   id: Clap
   category: Hands
   chatMessages: [хлопает!]
   chatTriggers:
+    - clap
+    - claps
+    - claps.
+    - claps!
+    - clapping
+    - clapped
     - хлопот
     - хлопнул
     - хлопнул.
@@ -77,7 +188,20 @@
   category: Hands
   chatMessages: [щёлкает пальцами] # snaps <{THEIR($ent)}> fingers?
   chatTriggers: # ru-l18n: holy FUCK look at all those word endings
-    - щёлкает   #          if only we had some kind of String.includes that would make me not cry
+    - snap      #          if only we had some kind of String.includes that would make me not cry
+    - snaps
+    - snapping
+    - snapped
+    - snap fingers
+    - snaps fingers
+    - snaps fingers.
+    - snaps fingers!
+    - snaps their fingers
+    - snaps their fingers.
+    - snaps their fingers!
+    - snapping fingers
+    - snapped fingers
+    - щёлкает
     - щёлкает.
     - щёлкает!
     - щелкает # people forget ё too often
@@ -113,3 +237,31 @@
     - щелкнула пальцами
     - щелкнула пальцами.
     - щелкнула пальцами!
+
+- type: emote
+  id: Salute
+  category: Hands
+  chatMessages: [салютует.]
+  chatTriggers:
+    - salute
+    - salute.
+    - salute!
+    - salutes
+    - salutes.
+    - salutes!
+    - салютует
+    - салютует.
+    - салютует!
+    - отдает честь
+    - отдает честь.
+    - отдает честь!
+    - отдаёт честь
+    - отдаёт честь.
+    - отдаёт честь!
+    - отдал честь
+    - отдал честь.
+    - отдал честь!
+    - отдала честь
+    - отдала честь.
+    - отдала честь!
+
